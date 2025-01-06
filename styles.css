@@ -118,6 +118,7 @@ section.aboutme {
     left: 12.5%;
 }
 
+
 #aboutmediv > h1 { 
 
     font-size: 45px;
@@ -131,6 +132,10 @@ section.aboutme {
     word-spacing: 2px;
 }
 
+#aboutmediv > #aboutmecontent > #aboutmeparagraph > #sidenote { 
+
+    font-size: 20px;
+}
 
 #aboutmediv > #aboutmecontent > #techstack {
 
