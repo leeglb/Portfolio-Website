@@ -290,7 +290,7 @@ section.contactme > #contactform > #buttonsubmit {
     align-items: center;
 }
 
-section.contactme > #contactform > #buttonsubmit > button{ 
+section.contactme > #contactform > #buttonsubmit > input{ 
 
     background-color: black;
     color: white;
