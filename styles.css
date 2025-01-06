@@ -134,46 +134,14 @@ section.aboutme {
 
 #aboutmediv > #aboutmecontent > #aboutmeparagraph > #sidenote { 
 
-    font-size: 20px;
+    font-size: 13px;
+    font-style: italic;
 }
 
-#aboutmediv > #aboutmecontent > #techstack {
-
-    margin: auto;
-    margin-top: 220px;
-    width: 600px;
-    height: 400px;
-    
-}
-
-#aboutmediv > #aboutmecontent > #techstack > #language > hr{
-
-    z-index: -1;
-}
-
-#aboutmediv > #aboutmecontent > #techstack > #language > h1{
-
-    text-align: center;
-}
-
-
-#aboutmediv > #aboutmecontent > #techstack > #language >#language-ul {
-
-    display: flex;
-    gap: 40px;
-}
-
-#aboutmediv > #aboutmecontent > #techstack > #language >#language-ul > li { 
-
-    height: 40px;
-    width: 40px;
-    list-style: none;
-    z-index: -1;
-}
 
 section.projectskills {
     position: absolute;
-    top: 190%;
+    top: 170%;
     left: 12.5%;
    
 }
@@ -221,7 +189,7 @@ section.projectskills {
 
 #projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > #basicimg{ 
     border: 2px solid;  
-    width: 300px;
+    width: 400px;
     height: 200px; 
 
 }
@@ -231,7 +199,39 @@ section.projectskills {
 
 }
 
+section.techstacksection > #techstack {
 
+    margin: auto;
+    margin-top: 128%;
+    width: 600px;
+    height: 400px;
+    
+}
+
+#techstack > #language > hr{
+
+    z-index: -1;
+}
+
+#techstack >#language > h1{
+
+    text-align: center;
+}
+
+
+#techstack > #language >#language-ul {
+
+    display: flex;
+    gap: 40px;
+}
+
+#techstack > #language >#language-ul > li { 
+
+    height: 40px;
+    width: 40px;
+    list-style: none;
+    z-index: -1;
+}
 
 section.contactme > h1 { 
 
