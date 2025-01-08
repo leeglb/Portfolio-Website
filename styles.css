@@ -201,8 +201,8 @@ section.projectskills {
 
 section.techstacksection > #techstack {
 
-    margin: auto;
-    margin-top: 132%;
+    margin: 150% auto;
+    
     width: 600px;
     height: 400px;
     
