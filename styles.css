@@ -201,13 +201,12 @@ section.projectskills {
 }
 
 
-#techstack > #language { 
+#techstack {
 
-    position: absolute;
-    top: 50vw;
-    left: 45vh;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550vh;
 }
 
 #techstack > #language > hr{
