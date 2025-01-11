@@ -143,6 +143,7 @@ section.projectskills {
     position: absolute;
     top: 170%;
     left: 12.5%;
+    
    
 }
 
@@ -151,7 +152,7 @@ section.projectskills {
     text-align: center;
     font-size: 25px;
     display: flex;
-    justify-content: space-around;
+    
     
 }
 
@@ -162,7 +163,7 @@ section.projectskills {
 
 #projectskillsdiv > #projectcontainer { 
     
-    width: 300%;
+    
     position: absolute; 
     top: 120%;
     
@@ -199,13 +200,14 @@ section.projectskills {
 
 }
 
-section.techstacksection > #techstack {
 
-    margin: 150% auto;
-    
-    width: 600px;
-    height: 400px;
-    
+#techstack > #language { 
+
+    position: absolute;
+    top: 50vw;
+    left: 47.5vh;
+
+
 }
 
 #techstack > #language > hr{
@@ -232,6 +234,8 @@ section.techstacksection > #techstack {
     list-style: none;
     z-index: -1;
 }
+
+/* ------------------------------------------------------------------------------- */
 
 section.contactme > h1 { 
 
