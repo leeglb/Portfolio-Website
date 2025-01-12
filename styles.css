@@ -1,7 +1,7 @@
 html { 
 
-    max-height: 100vh;
-    max-width: 100vw; 
+    max-height: 100%;
+    max-width: 100%; 
     overflow-x: hidden;
     
 }
@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0; 
     max-height: 100vh;
-    max-width: 200vw;
+    max-width: 100vw;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
@@ -170,7 +170,7 @@ section.projectskills {
 
 }
 
-#projectskillsdiv > #projectcontainer > #projectsection { 
+#projectskillsdiv > #projectcontainer { 
 
     position: absolute; 
     left: 30%;
@@ -180,7 +180,7 @@ section.projectskills {
 }
 
 
-#projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > #python {
+#projectskillsdiv > #projectcontainer > #basicprojects > #python {
 
     height: 60px;
     width: 60px;
@@ -188,14 +188,14 @@ section.projectskills {
 }
 
 
-#projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > #basicimg{ 
+#projectskillsdiv > #projectcontainer > #basicprojects > #basicimg{ 
     border: 2px solid;  
     width: 400px;
     height: 200px; 
 
 }
 
-#projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > #calculatorcaption{ 
+#projectskillsdiv > #projectcontainer > #basicprojects > #calculatorcaption{ 
     font-size: 20px; 
 
 }
@@ -362,7 +362,6 @@ footer {
         background-color: rgb(255, 255, 242);
         color: rgb(0, 0, 0); 
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        width: 100vw;
         
     }
     
@@ -483,46 +482,17 @@ footer {
         font-size: 13px;
         font-style: italic;
     }
-    
-    
-    section.projectskills > #projectskillsdiv{ 
 
-        position: absolute; 
-        top: 170%;
-        width: auto;
-        
+    section.projectskills > #projectskillsdiv > h1{ 
 
-    }
-    
-    #projectskillsdiv > h1 { 
-        
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        margin-left: calc(40% - 12.5%);
         font-size: 25px;
-         
-        
-    }
-    
-    #projectskillsdiv > #projectcontainer { 
-        
-        
-        position: absolute; 
-        top: 120%;
-        width: auto;
-        
-        
-    
-    }
-    
-    #projectskillsdiv > #projectcontainer > #projectsection { 
-    
-        font-size: 20px;
-        font-weight: 5px;
-    
+        border: 2px solid;
     }
     
     
-    #projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > #python {
+    #projectskillsdiv > #projectcontainer > #basicprojects > #python {
 
         text-align: center;
         height: 40px;
@@ -531,35 +501,33 @@ footer {
     }
     
     
-    #projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > #basicimg{   
+    #projectskillsdiv > #projectcontainer > #basicprojects > #basicimg{   
         width: 200px;
         height: 100px; 
     
     }
     
-    #projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > #calculatorcaption{ 
+    #projectskillsdiv > #projectcontainer > #basicprojects > #calculatorcaption{ 
         font-size: 15px; 
         font-style: italic; 
     
     }
 
-    #projectskillsdiv > #projectcontainer > #projectsection > #basicprojects > hr{ 
+    #projectskillsdiv > #projectcontainer > #basicprojects > hr{ 
         width: 0;
         height: 0;
         opacity: 0%;
     
     }
+
+    /* ------------------------------------------------------------------------------------------------- */
     
-    section.techstacksection > #techstack {
-    
-        margin: auto;
-        margin-top: 400%;
-        width: 400px;
-        height: 400px;
+    #techstack {
+
         display: flex;
-        flex-direction: column; 
+        align-items: center;
         justify-content: center;
-        
+        margin-top: 1750px;
     }
     
     #techstack > #language > hr{
@@ -578,20 +546,17 @@ footer {
     #techstack > #language >#language-ul {
     
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 10%;
-        gap: 10px;
-        
-
+        gap: 30px;
+        width: 80%;
     }
     
     #techstack > #language >#language-ul > li { 
-        
+    
+        height: 30px;
+        width: 30px;
         list-style: none;
         z-index: -1;
-        
-        
+
     }
     
     section.contactme > h1 { 
