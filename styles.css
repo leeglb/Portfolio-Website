@@ -346,16 +346,17 @@ footer {
     width: 100%;
 }
 
+@media only screen and (max-height: 1080px) {
+
+    #techstack {
+        margin-top: 2500px;
+    }
+}
+
 /* For iphones  --------------------------------------------------------------------------------------------------------------------- */ 
 
 @media only screen and (max-width: 480px) {
 
-    html { 
-
-        margin: 0 auto;
-        
-    }
-    
     
     body { 
         
