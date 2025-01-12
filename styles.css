@@ -206,7 +206,7 @@ section.projectskills {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 550vh;
+    margin-top: 2500px;
 }
 
 #techstack > #language > hr{
