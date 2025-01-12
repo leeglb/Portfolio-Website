@@ -203,15 +203,16 @@ section.projectskills {
 
 #techstack {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2300px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
 }
 
 #techstack > #language > hr{
 
     z-index: -1;
+    width: 30%;
 }
 
 #techstack >#language > h1{
@@ -223,7 +224,11 @@ section.projectskills {
 #techstack > #language >#language-ul {
 
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
+    
+    
 }
 
 #techstack > #language >#language-ul > li { 
@@ -346,18 +351,12 @@ footer {
     width: 100%;
 }
 
-@media only screen and (min-height: 1600px) {
+
+@media only screen and (min-height: 836px) {
 
     #techstack { 
-
-        margin-top: 3500px;
-    }
-}
-
-@media only screen and (max-height: 1080px) {
-
-    #techstack {
-        margin-top: 2800px;
+        position: absolute;
+        top: 270%;
     }
 }
 
