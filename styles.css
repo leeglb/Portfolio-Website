@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'BigShoulders';
+    src: url('fonts/bigshoulders.ttf') format(woff2);
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html { 
 
     max-height: 100%;
@@ -9,14 +18,13 @@ html {
 
 body { 
 
-    background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0); 
+    background-color:#101010;
+    color: rgb(255, 255, 255); 
     margin: 0;
     padding: 0; 
     max-height: 100vh;
     max-width: 100vw;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-
+    font-family: 'BigShoulders', sans-serif;
 }
 
 
@@ -24,12 +32,11 @@ body {
     color: white; 
     display: flex; 
     position: fixed; 
-    top: 2%;
+    top: 1.5%;
     left: 1%;
     z-index: 4;
-    background-color: rgb(0, 0, 0);
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'BigShoulder', ;
 }
 
 #lg:hover { 
@@ -49,7 +56,7 @@ body {
     position: fixed; 
     top: -0.5%;
     left: -2%;
-    background-color: black;
+    background-color: #101010;
     width: 102%;
     z-index: 3;
     
@@ -62,589 +69,64 @@ body {
     align-items: center;
     gap: 30px;
     justify-content: flex-end;
-    margin-right: 20px;
+    margin-right: 40px;
     z-index: 3;
     
 }
 
+#navbar > ul > a { 
 
-
-
-
-#welcometext > h2 { 
-    color: rgb(0, 0, 0); 
-    font-size: 30px;
-    padding-left: 10%;
-}
-
-
-section.aboutme { 
-
-    width: 80%;
-    height: 80%;
-    border: 2px solid transparent; 
-    position: absolute; 
-    top: 105%;
-    left: 12.5%;
-}
-
-
-#aboutmediv > h1 { 
-
-    font-size: 45px;
-}
-
-
-#aboutmediv > #aboutmecontent {
- 
-    gap: 10px;
-    font-size: 17px;
-    word-spacing: 2px;
-}
-
-#aboutmediv > #aboutmecontent > #aboutmeparagraph > #sidenote { 
-
-    font-size: 13px;
-    font-style: italic;
-}
-
-
-section.projectskills {
-    position: absolute;
-    top: 170%;
-    left: 12.5%;
-    
-   
-}
-
-#projectskillsdiv { 
-
-    text-align: center;
-    font-size: 25px;
-    display: flex;
-    
-    
-}
-
-#projectskillsdiv > h1 { 
-
-    font-size: 45px;
-}
-
-#projectskillsdiv > #projectcontainer { 
-    
-    
-    position: absolute; 
-    top: 120%;
-    
-
-}
-
-#projectskillsdiv > #projectcontainer { 
-
-    position: absolute; 
-    left: 30%;
+    color: white;
+    text-decoration: none;
     font-size: 20px;
-    font-weight: 5px;
-
 }
 
 
-#projectskillsdiv > #projectcontainer > #basicprojects > #python {
+#main-page { 
 
-    height: 60px;
-    width: 60px;
-
+    margin-top: 20rem;
+    margin-left: 2rem;
 }
 
 
-#projectskillsdiv > #projectcontainer > #basicprojects > #basicimg{ 
-    border: 2px solid;  
-    width: 400px;
-    height: 200px; 
 
+#main-page > #title-text > .name-title { 
+
+    width: 0px;
+    text-wrap: wrap;
+    font-size: 120px;
 }
 
-#projectskillsdiv > #projectcontainer > #basicprojects > #calculatorcaption{ 
-    font-size: 20px; 
+#main-page > #title-text > .sub-title { 
 
+    margin-left: 10px;
+    margin-top: -110px;
+    font-size: 25px;
 }
 
+#main-page > #title-text > .sub-title2 { 
 
-#techstack {
-
-    position: absolute;
-    top: 20%;
-    left: 0;
-    right: 0;
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 25px;
 }
 
-#techstack > #language > hr{
+#main-page > #main-page-button-div { 
 
-    z-index: -1;
-    width: 30%;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#techstack >#language > h1{
+#main-page > #main-page-button-div > a { 
 
+    
+    width: 25%;
     text-align: center;
-}
-
-
-#techstack > #language >#language-ul {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    
-    
-}
-
-#techstack > #language >#language-ul > li { 
-
-    height: 40px;
-    width: 40px;
-    list-style: none;
-    z-index: -1;
-}
-
-/* ------------------------------------------------------------------------------- */
-
-section.contactme > h1 { 
-
-    width: 100%;
-    position: absolute; 
-    top: 300%;
-    text-align: center;
-    font-size: 45px;
-}
-
-section.contactme > #contactform { 
-
-   
-    width: 100%;
-    height: 400px;
-    position: absolute; 
-    top: 310%;
-    
-    
-}
-
-section.contactme > #contactform > #nameinput { 
-    
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-}
-
-section.contactme > #contactform > #nameinput > #firstname{ 
-    
-    width: 150px;
-    height: 22px;
-}
-
-section.contactme > #contactform > #nameinput > #lastname{ 
-    
-    width: 250px;
-    height: 22px;
-}
-
-section.contactme > #contactform > #emailinput { 
-
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section.contactme > #contactform > #emailinput > #email{ 
-
-    width: calc(150px + 250px + 10px);
-    height: 22px; 
-    /* quick side note, fuck this whole process */
-}
-
-section.contactme > #contactform > #commentbox  {
-
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-section.contactme > #contactform > #commentbox > #comments { 
-
-    min-width: calc(150px + 250px + 10px);
-    max-width: calc(150px + 250px + 10px);
-    min-height: 70px;
-    max-height: 70px;
-    overflow-y: visible;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-section.contactme > #contactform > #buttonsubmit { 
-
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section.contactme > #contactform > #buttonsubmit > input{ 
-
-    background-color: black;
+    background-color: #1E1E1E;
     color: white;
-    width: calc(150px + 250px + 20px);;
-    height: auto;
-}
-
-section.contactme > #contactform > #buttonsubmit > input:hover{ 
-    /* the input part is just the buttonsubmit input, cbf writing an id for it */
-
-    background-color: white;
-    color: black;
-}
-
-footer { 
-
-    position: absolute; 
-    top: 360%;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    align-items: center; 
-    height: 70px;
-    width: 100%;
-}
-
-
-@media only screen and (min-height: 836px) {
-
-    #techstack { 
-        position: absolute;
-        top: 280%;
-    }
-}
-
-/* For iphones  --------------------------------------------------------------------------------------------------------------------- */ 
-
-@media only screen and (max-width: 480px) {
-
-    
-    body { 
-        
-        background-color: rgb(255, 255, 242);
-        color: rgb(0, 0, 0); 
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        
-    }
-    
-    
-    #lg { 
-        color: white; 
-        display: flex; 
-        position: fixed; 
-        margin-top: 1%;
-        left: 1%;
-        z-index: 4;
-        background-color: rgb(0, 0, 0);
-        font-size: 30px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    
-    #lg:hover { 
-    
-        transform: scale(120%,120%);
-    }
-    
-    
-    #lg > #verticalhr { 
-    
-        margin: 0 5px;   
-        height: 30px;
-    
-    }
-    
-    #navbar { 
-        position: fixed; 
-        top: -0.5%;
-        background-color: black;
-        width: 100%;
-        z-index: 3;
-        
-        /* At the point where we need to fix scroll on ios devices. */
-    
-    }
-    
-    #navbar > ul { 
-    
-        display: flex; 
-        align-items: center;
-        gap: 30px;
-        justify-content: flex-end;
-        margin-right: 20px;
-        z-index: 3;
-        
-    }
-    
-    
-    
-    #welcometext { 
-        
-        
-        height: 300px;
-        width: 100%;
-        position: absolute; 
-        margin-top: 150px;
-        top: -25%;
-        left: -10%;
-        
-    }
-    
-    
-    #welcometext > h1 {
-    
-        
-        font-size: 30px;
-        
-    
-    }
-    
-    #welcometext > h2 { 
-        
-        color: rgb(0, 0, 0); 
-        font-size: 15px;
-        padding-left: 15%;
-    }
-    
-    #welcometext > img { 
-    
-        position: relative;
-        left: 25vw;
-        height: 250px;
-        width: 300px;
-        
-    }
-    
-    
-    section.aboutme { 
-    
-        position: absolute; 
-        top: 95%;
-        
-        
-    }
-    
-    
-    #aboutmediv > h1 { 
-    
-        font-size: 25px;
-        text-align: center;
-    }
-    
-    
-    #aboutmediv > #aboutmecontent {
-
-        text-align: center;
-        margin-right: 2px;
-        font-size: 13px;
-        word-spacing: 2px;
-    }
-    
-    #aboutmediv > #aboutmecontent > #aboutmeparagraph > #sidenote { 
-    
-        font-size: 13px;
-        font-style: italic;
-    }
-
-    section.projectskills > #projectskillsdiv > h1{ 
-
-        position: relative;
-        margin-left: calc(40% - 12.5%);
-        font-size: 25px;
-        border: 2px solid;
-    }
-    
-    
-    #projectskillsdiv > #projectcontainer > #basicprojects > #python {
-
-        text-align: center;
-        height: 40px;
-        width: 40px;
-    
-    }
-    
-    
-    #projectskillsdiv > #projectcontainer > #basicprojects > #basicimg{   
-        width: 200px;
-        height: 100px; 
-    
-    }
-    
-    #projectskillsdiv > #projectcontainer > #basicprojects > #calculatorcaption{ 
-        font-size: 15px; 
-        font-style: italic; 
-    
-    }
-
-    #projectskillsdiv > #projectcontainer > #basicprojects > hr{ 
-        width: 0;
-        height: 0;
-        opacity: 0%;
-    
-    }
-
-    /* ------------------------------------------------------------------------------------------------- */
-    
-    #techstack {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 1750px;
-    }
-    
-    #techstack > #language > hr{
-    
-        z-index: -1;
-        width: 80%;
-    }
-    
-    #techstack >#language > h1{
-    
-        text-align: center;
-        font-size: 25px;
-    }
-    
-    
-    #techstack > #language >#language-ul {
-    
-        display: flex;
-        gap: 30px;
-        width: 80%;
-    }
-    
-    #techstack > #language >#language-ul > li { 
-    
-        height: 30px;
-        width: 30px;
-        list-style: none;
-        z-index: -1;
-
-    }
-    
-    section.contactme > h1 { 
-    
-        width: 100%;
-        position: absolute; 
-        top: 300%;
-        text-align: center;
-        font-size: 25px;
-    }
-    
-    section.contactme > #contactform { 
-    
-        margin-left: 5px;
-        width: 100%;
-        height: 400px;
-        position: absolute; 
-        top: 310%;
-        
-        
-    }
-    
-    section.contactme > #contactform > #nameinput { 
-        
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2px;
-    }
-    
-    section.contactme > #contactform > #nameinput > #firstname{ 
-        
-        width: 125px;
-        height: 22px;
-    }
-    
-    section.contactme > #contactform > #nameinput > #lastname{ 
-        
-        width: 250px;
-        height: 22px;
-    }
-    
-    section.contactme > #contactform > #emailinput { 
-    
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    section.contactme > #contactform > #emailinput > #email{ 
-    
-        width: calc(150px + 250px + 10px);
-        height: 22px; 
-        /* quick side note, fuck this whole process */
-    }
-    
-    section.contactme > #contactform > #commentbox  {
-    
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    
-    section.contactme > #contactform > #commentbox > #comments { 
-    
-        min-width: calc(130px + 250px);
-        max-width: calc(130px + 250px);
-        min-height: 70px;
-        max-height: 70px;
-        overflow-y: visible;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-    section.contactme > #contactform > #buttonsubmit { 
-    
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    section.contactme > #contactform > #buttonsubmit > input{ 
-    
-        background-color: black;
-        color: white;
-        width: calc(150px + 250px + 10px);
-        height: 25px;
-    }
-    
-    section.contactme > #contactform > #buttonsubmit > input:hover{ 
-        /* the input part is just the buttonsubmit input, cbf writing an id for it */
-    
-        background-color: white;
-        color: black;
-    }
-    
-    footer { 
-    
-        font-size: 12px;
-        position: absolute; 
-        top: 360%;
-        background-color: rgb(0, 0, 0);
-        color: white;
-        text-align: center;
-        align-items: center; 
-        height: 50px;
-        width: 100%;
-    }
+    font-family: 'BigShoulders';
+    text-decoration: none;
+    font-size: 24px;
 }
