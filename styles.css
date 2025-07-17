@@ -12,6 +12,7 @@ html {
     max-height: 100%;
     max-width: 100%; 
     overflow-x: hidden;
+    scroll-behavior: smooth;
     
 }
 
@@ -130,3 +131,45 @@ body {
     text-decoration: none;
     font-size: 24px;
 }
+
+#about-me-anchor { 
+
+    margin-top: 50rem;
+}
+
+
+#about-me-page { 
+
+    text-align: center;
+}
+
+
+#about-me-page > #about-me-text > h1 { 
+    font-size: 60px;
+}
+
+
+#about-me-page > #about-me-text > p { 
+
+    font-size: 20px;
+
+}
+
+#about-me-page > #techstack > #language > #language-ul {
+
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#about-me-page > #techstack > #language > #language-ul > li > img{
+
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    
+
+}
+
