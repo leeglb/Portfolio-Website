@@ -103,11 +103,13 @@ body {
 
 #about-me-anchor { 
 
-    margin-top: 60rem;
+    margin-top: 30rem;
+    color:#101010;
 }
 
 #about-me-page { 
 
+    margin-top: 19rem;
     display: flex;
     justify-content: space-around;
 }
