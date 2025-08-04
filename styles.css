@@ -64,7 +64,7 @@ body {
 
 #main-page { 
 
-    margin-top: 20rem;
+    margin-top: 30rem;
     text-align: center;
 }
 
@@ -75,26 +75,6 @@ body {
     text-align: center;
 }
 
-#main-page > #title-text > #travelling-subtitle { 
-
-    overflow: hidden; 
-    position: relative; 
-    width: 50%;
-    margin: 0 auto;
-
-}
-
-#main-page > #title-text > #travelling-subtitle > p { 
-
-    animation: travelling-text 10s linear infinite; 
-    display: inline-block;
-    will-change: transform;
-}
-
-#main-page > #title-text > #travelling-subtitle > .sub-title { 
-
-    font-size: 25px;
-}
 
 #main-page > #title-text > .sub-title2 { 
 
@@ -103,7 +83,6 @@ body {
 
 #main-page > #main-page-button-div { 
 
-    margin-top: 15rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +146,7 @@ body {
     width: 45vw;
     margin-left: 2rem;
     position: relative;
-    padding-top: 5rem;
+    padding: 5rem;
 }
 
 
@@ -243,17 +222,6 @@ body {
     margin-top: 20rem;
 }
 
-@keyframes travelling-text {
-
-    0% { 
-        transform: translateX(150%);
-    }
-
-    100% { 
-
-        transform: translateX(-150%);
-    }
-}
 
 @keyframes spin { 
 
