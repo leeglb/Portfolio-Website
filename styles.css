@@ -58,7 +58,7 @@ body {
 
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 
@@ -71,7 +71,7 @@ body {
 
 #main-page > #title-text > .name-title { 
    
-    font-size: 120px;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -118,7 +118,7 @@ body {
 #about-me-page > #about-me-text > #tech-title { 
 
     text-align: center;
-    font-size: 60px;
+    font-size: 3rem;
     
 }
 
@@ -155,7 +155,7 @@ body {
 
 #about-me-page > #techstack > #language > h1 { 
 
-    font-size: 35px;
+    font-size: 1.5rem;
     margin-top: 0rem;
     text-align: center;
     margin-left: 2rem;
@@ -197,7 +197,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-left: 2rem;
-    gap: 50px;
+    gap: 3rem;
     text-decoration: none;
     list-style: none;
 
@@ -207,7 +207,7 @@ body {
     
     background-color: rgb(40, 39, 39);
     border-radius: 10%;
-    border: 50px solid rgb(40, 39, 39);
+    border: 2rem solid rgb(40, 39, 39);
 }
 
 
