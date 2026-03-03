@@ -90,6 +90,7 @@ html, body {
 #about-me-text {
     width: 100%;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 #techstack {
@@ -99,6 +100,12 @@ html, body {
     background-color: #101010;
     padding: 3rem 1rem;
     border-radius: 10px;
+}
+
+#techstack > h1 {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #language-ul {
