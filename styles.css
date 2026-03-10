@@ -87,10 +87,10 @@ html, body {
     isolation: isolate;
 }
 
-#about-me-text {
+#about-me-text > #tech-title{
     width: 100%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #techstack {
@@ -102,10 +102,12 @@ html, body {
     border-radius: 10px;
 }
 
-#techstack > h1 {
-
+#techstack h1 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.8rem;
 }
 
 #language-ul {
@@ -132,7 +134,7 @@ html, body {
 }
 
 #language-ul img {
-    width: 40px;
+    width: 50px;
     height: auto;
     display: block;
 }
